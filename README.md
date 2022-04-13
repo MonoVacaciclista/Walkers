@@ -12,3 +12,4 @@ En el proyecto se usará:
 Además tiene instalado los siguientes frameworks:
 - Bootstrap (5.1.3)
 - Sweetalerts (2)
+- Fontawesome (6.1.1)
