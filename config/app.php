@@ -2,14 +2,14 @@
     // Sessions
     session_start();
 
-    // Routes Absolutes
+    // Absolute routes
     $url    = 'http://localhost/Walkers/';
     $public = $url . 'public/';
     $css    = $public . 'css/';
     $imgs   = $public . 'imgs/';
     $js     = $public . 'js/';
 
-    // Config DataBase
+    // Database config
     $host = 'localhost';
     $user = 'root';
     $pass = '';
