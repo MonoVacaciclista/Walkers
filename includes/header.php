@@ -15,4 +15,11 @@
     <title>Walkers</title>
 </head>
 <body>
+    <?php
+        if(isset($_SESSION['ss-name'])){
+            include 'navbar-user.php';
+        } else{
+            include 'navbar.php';
+        }
+    ?>
     

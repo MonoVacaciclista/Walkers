@@ -21,20 +21,16 @@
         <?php if (isset($_SESSION['message'])) : ?>
             Toast.fire({
                 icon: 'success',
-                title: 'Registro completo'
+                title: '<?php echo $_SESSION['message']?>'
             })
             <?php unset($_SESSION['message']); ?>
         <?php endif; ?>
         /* - - - - - - - - - - - - - - - - - - - */
         <?php if (isset($_SESSION['error'])) : ?>
-            Swal.fire({
-                position: 'top-end',
+            Toast.fire({
                 icon: 'error',
-                title: 'Something is not right!',
-                text: '<?php echo $_SESSION['error']; ?>',
-                showConfirmButton: false,
-                timer: 5000
-            });
+                title: '<?php echo $_SESSION['error']?>'
+            })
             <?php unset($_SESSION['error']); ?>
         <?php endif; ?>
         /* - - - - - - - - - - - - - - - - - - - */
