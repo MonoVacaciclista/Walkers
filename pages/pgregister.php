@@ -50,9 +50,9 @@
         $password = md5($_POST['password']);
 
         if(regUser($name, $email, $password, $conn)){
-            echo 'Registro completo';
+            $_SESSION['message'] = 'The user: ' . $name . ' was registered successful!';
         } else{
-            echo 'Hubo un error';
+            $_SESSION['error'] = 'Email or Username already exist!';
         }
         
     }

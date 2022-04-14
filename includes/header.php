@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="<?php echo $css; ?>bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $css; ?>style.css">
     <link rel="stylesheet" href="<?php echo $css; ?>all.css">
+    <link rel="stylesheet" href="<?php echo $css; ?>sweetalert2.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">

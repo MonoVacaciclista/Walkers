@@ -5,11 +5,12 @@ Walkers es un proyecto que nació en clase de Emprendimiento, trata de una pági
 En el proyecto se usará:
 - HTML
 - CSS
-- JS -> JQuery
+- JS
 - PHP
 - BD
 
 Además tiene instalado los siguientes frameworks:
 - Bootstrap (5.1.3)
-- Sweetalerts (2)
+- Sweetalerts2 (11.4.8)
 - Fontawesome (6.1.1)
+- JQuery (3.5.1)
