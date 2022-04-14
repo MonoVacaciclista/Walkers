@@ -5,3 +5,21 @@ body{
 #logo{
     width: 60px;
 }
+
+.login{
+    background-color: rgb(57, 55, 55);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #999;
+}
+
+img{
+    width: 100%;
+}
+
+.form-floating{
+    width: 95%;
+}
+
+.white-text{
+    color: white;
+}

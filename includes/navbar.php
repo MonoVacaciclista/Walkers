@@ -26,7 +26,7 @@
         <i class="fa-solid fa-user"></i>
         
       </ul>
-      <a href="#" class="btn btn-outline-success"><i class="fa-solid fa-user"></i></a>
+      <a href="<?php echo $url;?>login.php" class="btn btn-outline-success"><i class="fa-solid fa-user"></i></a>
       <a href="#" class="btn btn-outline-success ms-3"><i class="fa-solid fa-cart-shopping"></i></a>
       
     </div>
