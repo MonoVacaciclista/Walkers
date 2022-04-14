@@ -22,7 +22,7 @@
                         Entrar
                     </button>
                     <p class="mt-1 white-text m-2">
-                        ¿No tiene cuenta? <a href="">Registrarse</a>
+                        ¿No tiene cuenta? <a href="<?php echo $url;?>register.php">Registrarse</a>
                     </p>
                 </form>
             </div>

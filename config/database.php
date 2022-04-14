@@ -8,5 +8,43 @@
     }
 
     /* Functions CRUD */
-    // Register Users
-    
+    // Register users
+    function regUser($name, $email, $password, $conn){
+        try{
+            $sql = "INSERT INTO users (name, email, password)
+             VALUES (:name, :email, :password)";
+            $stmt = $conn->prepare($sql);
+            $stmt->bindparam(":name", $name);
+            $stmt->bindparam(":email", $email);
+            $stmt->bindparam(":password", $password);
+           
+            if($stmt->execute()){
+                return true;
+            } else{
+                return false;
+            }
+        } catch (PDOException $e){
+            echo "Hola";
+            echo $e->getMessage();
+        }
+    }
+
+    function registerUser($fullname, $email, $username, $password, $conn) {
+        try {
+            $sql  = "INSERT INTO users (fullname, email, username, password) 
+                     VALUES (:fullname, :email, :username, :password)";
+            $stmt = $conn->prepare($sql);
+            $stmt->bindparam(":fullname", $fullname);
+            $stmt->bindparam(":email", $email);
+            $stmt->bindparam(":username", $username);
+            $stmt->bindparam(":password", $password);
+
+            if($stmt->execute()) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
