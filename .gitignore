@@ -1,2 +1,18 @@
 # Database config
 config/app.php
+
+
+# Bootstrap
+public/css/bootstrap.css
+public/css/bootstrap.min.css
+
+public/js/bootstrap.js
+public/js/bootstrap.min.js
+
+# Fontawesome
+public/css/all.css
+
+# Sweetalert2
+public/css/sweetalert2.min.css
+
+public/js/sweetalert2@10.js
